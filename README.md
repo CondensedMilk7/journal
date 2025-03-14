@@ -31,4 +31,4 @@ Example Configuration:
 }
 ```
 
-The default directory for storing journals is `$HOME/Documents/journal`.
+This is also the default configuration, except for `journalDir`, which is `$HOME/Documents/journal`.
