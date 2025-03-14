@@ -15,7 +15,7 @@ journal 2025-03-14 # Creates and opens entry for March 3, 2025
 Requires [go](https://go.dev/).
 
 ```sh
-go install github.com/CondensedMilk7/journal
+go install github.com/CondensedMilk7/journal/cmd/journal@latest
 ```
 
 ### Configuration
