@@ -27,7 +27,8 @@ Example Configuration:
 {
   "journalDir": "/Users/pridon/Documents/journal",
   "editor": "nvim",
-  "filemode": 600
+  "filemode": 600,
+  "fileExtension": "md"
 }
 ```
 

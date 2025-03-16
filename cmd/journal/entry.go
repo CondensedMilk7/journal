@@ -20,7 +20,7 @@ func newEntry(t time.Time, c *config) *entry {
 	e := entry{}
 	e.time = t
 	e.slug = t.Format("2006-01-02")
-	e.path = fmt.Sprintf("%s/%s.md", c.JournalDir, e.slug)
+	e.path = fmt.Sprintf("%s/%s.%s", c.JournalDir, e.slug, c.FileExtension)
 
 	return &e
 }
